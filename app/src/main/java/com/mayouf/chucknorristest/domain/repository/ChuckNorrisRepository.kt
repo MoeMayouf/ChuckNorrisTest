@@ -1,11 +1,9 @@
-package com.mayouf.chucknorristest.data.source.remote
+package com.mayouf.chucknorristest.domain.repository
 
 import com.mayouf.chucknorristest.domain.model.ChuckNorrisModel
 import io.reactivex.Single
-import retrofit2.http.GET
 
-interface ChuckNorrisServiceApi {
+interface ChuckNorrisRepository {
 
-    @GET("jokes")
     fun getChuckNorrisJokes(): Single<ChuckNorrisModel>
 }

@@ -1,4 +1,4 @@
-package com.mayouf.chucknorristest.domain
+package com.mayouf.chucknorristest.domain.model
 
 import com.google.gson.annotations.SerializedName
 
