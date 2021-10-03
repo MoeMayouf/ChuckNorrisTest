@@ -7,7 +7,7 @@ import com.mayouf.chucknorristest.utils.ThreadScheduler
 import io.reactivex.Single
 import javax.inject.Inject
 
-class GetChuckNorrisJokes @Inject constructor(
+class GetChuckNorrisJokesUseCase @Inject constructor(
     threadScheduler: ThreadScheduler,
     private val repository: ChuckNorrisRepository
 ) : SingleUseCase<ChuckNorrisModel>(threadScheduler) {
